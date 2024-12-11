@@ -16,14 +16,14 @@ The project includes:
 - **Machine Learning**: Utilizes an ensemble model (Random Forest) for classification.
 - **Interactive Interface**: Built with Streamlit for ease of use and visualization.
 
----
+
 ## Dataset
 The model is a tuned Random Forest trained on the PhiUSIIL dataset and an tested on an unrelated dataset  (JISHNU K S KAITHOLIKKAL). 
 The training dataset includes:
 - **134,850 legitimate URLs** and **100,945 phishing URLs**.
 The test dataset includes:
 - **345,738 legitimate URLS** and **104.438 phishing URLs**
----
+
 
 ## How to Run the Semantic Malicious URL Detector
 
@@ -58,7 +58,7 @@ Real-time classification through an interactive interface, without relying on ex
 ## Contributing
 Contributions are welcome! Fork the repository and submit a pull request.
 
-##License
+## License
 This project is licensed under the MIT License.
 
 
