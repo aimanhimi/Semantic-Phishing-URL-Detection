@@ -18,8 +18,11 @@ The project includes:
 
 ---
 ## Dataset
-The model is a tuned Random Forest trained on the PhiUSIIL dataset and an tested on an unrelated dataset  (JISHNU K S KAITHOLIKKAL). The training dataset includes:
+The model is a tuned Random Forest trained on the PhiUSIIL dataset and an tested on an unrelated dataset  (JISHNU K S KAITHOLIKKAL). 
+The training dataset includes:
 - **134,850 legitimate URLs** and **100,945 phishing URLs**.
+The test dataset includes:
+- **345,738 legitimate URLS** and **104.438 phishing URLs**
 ---
 
 ## How to Run the Semantic Malicious URL Detector
