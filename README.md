@@ -2,9 +2,6 @@
 This project implements a machine learning-based approach to detect phishing URLs using semantic URL-based features. It includes a Streamlit interface for visualization and user interaction, allowing you to classify URLs as phishing or legitimate
 
 # Semantic Malicious URL Detector
-
-This project implements a machine learning-based approach to detect phishing URLs using semantic URL-based features. It includes a **Streamlit interface** for visualization and user interaction, allowing you to classify inputed URLs as phishing or legitimate.
-
 ![image](https://github.com/user-attachments/assets/05afcbee-dd61-47f9-8afe-eb80b05b345e)
 
 ---
