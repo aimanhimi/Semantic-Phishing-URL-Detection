@@ -11,11 +11,11 @@ This project implements a machine learning-based approach to detect phishing URL
 ## Features
 
 The project includes:
-- **Semantic URL-Based Features**: Extracted features such as URL length, digit ratios, special character presence, and novel features like `RatioNLP`.
+- **Semantic URL-Based Features**: We implemented a well performing feature for training the models: `RatioNLP`.
 - **Host Analysis**: Detects domain obfuscation and malicious intent through host analysis.
 - **Machine Learning**: Utilizes an ensemble model (Random Forest) for classification.
 - **Interactive Interface**: Built with Streamlit for ease of use and visualization.
-- 
+
 ---
 ## Dataset
 The model is a tuned Random Forest trained on the PhiUSIIL dataset and an tested on an unrelated dataset  (JISHNU K S KAITHOLIKKAL). The training dataset includes:
@@ -46,7 +46,7 @@ The model is a tuned Random Forest trained on the PhiUSIIL dataset and an tested
 The application will launch in your browser
 
 ## Usage
-Enter a URL in the text input box on the application page (e.g., https://example.com). Click Submit. The app will classify the URL as phishing or legitimate with a confidence level
+Enter a URL in the text input box on the application page. Click Submit. The app will classify the URL as phishing or legitimate with a confidence level
 
 ## Key results
 Ensemble model achieves high classification performance with significant accuracy in phishing URL detection.
