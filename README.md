@@ -11,9 +11,7 @@ This project implements a machine learning-based approach to detect phishing URL
 ## Features
 
 The project includes:
-- **Semantic URL-Based Features**: We implemented a well performing feature for training the models: `RatioNLP`.
-- **Host Analysis**: Detects domain obfuscation and malicious intent through host analysis.
-- **Machine Learning**: Utilizes an ensemble model (Random Forest) for classification.
+- **Semantic URL-Based Model**: Detects domain obfuscation and malicious intent through host analysis. We implement a novel well performing feature: `RatioNLP`.
 - **Interactive Interface**: Built with Streamlit for ease of use and visualization.
 
 
