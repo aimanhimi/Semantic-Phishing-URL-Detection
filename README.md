@@ -46,10 +46,10 @@ The application will launch in your browser
 Enter a URL in the text input box on the application page. Click Submit. The app will classify the URL as phishing or legitimate with a confidence level
 
 ## Key results
-Ensemble model achieves high classification performance with significant accuracy in phishing URL detection.
-Real-time classification through an interactive interface, without relying on external tools nor HTML content.
-Altought its excelent performance in the test set (97%  f1-score), the model has certain weak points to the inherent bias in the train set (it has been mainly shown oversimplified legitimate urls with the WorldWideWeb subdomain). 
-A direct improvement of the model would be to add a whitelist and blacklist to improve the predictions with time. 
+- Ensemble model achieves high classification performance with significant accuracy in phishing URL detection.
+- Real-time classification through an interactive interface, without relying on external tools nor HTML content.
+- Altought its excelent performance in the test set (97%  f1-score), the model has certain weak points to the inherent bias in the train set (it has been mainly shown oversimplified legitimate urls with the WorldWideWeb subdomain). 
+- A direct improvement of the model would be to add a whitelist and blacklist to improve the predictions with time. 
 
 ## License
 This project is licensed under the MIT License.
